@@ -1,0 +1,35 @@
+body {
+   background-color: #d1d1d1;
+}
+
+.game {
+   position: relative;
+   margin: auto;
+   margin-top: 100px;
+
+   width: 388px;
+   background-color: #bbb8b8;
+   border: 5px solid black;
+}
+
+.state {
+   display: inline-block;
+   padding: 5px;
+   background-color: rgb(44, 44, 44);
+   
+   font-size: 20px;
+   font-family: sans-serif;
+   color: rgb(168, 167, 167);
+}
+
+.best {
+   position: absolute;
+   right: 0;
+}
+
+
+
+canvas {
+	display: block;
+	margin: 20px;
+}
